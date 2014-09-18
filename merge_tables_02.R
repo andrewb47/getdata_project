@@ -44,7 +44,7 @@ names(final_data)[1:3] <- c("subject", "activity_code", "activity_label")
 # sort by subject then by activity_code
 final_data_sort_01 <- final_data[order(final_data$subject, final_data$activity_code),]
 #
-write.table(final_data, file = "samsung_data.txt", row.names = FALSE)
+write.table(final_data_sort_01, file = "samsung_data.txt", row.names = FALSE)
 
 
 
