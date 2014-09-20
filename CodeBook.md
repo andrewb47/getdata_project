@@ -2,9 +2,9 @@
 ## Coursera John Hopkins Getting and Cleaning Data Project
 ### Data Dictionary
 #### Introduction
-This document that modifies and updates the codebook information along with the original data and defines the variables and summaries and any other relevant information.
+This document modifies and updates the codebook information provided with the original data and defines the variables used, summaries, other processing and any other relevant information.
 
-A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data is included in this document.
+A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data from it is included in this document.
 
 
 
