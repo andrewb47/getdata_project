@@ -4,13 +4,15 @@
 This repo comprises the deliverables for an assignment that is part of the Coursera course 'Getting and Cleaning Data', one of a series of courses on
 Data Science provided on Coursera.org by the John Hopkins Bloomberg School of Public Health.
 
+The data for the project is in a set of files published by the International Workshop of Ambient Assisted Living. See the reference in the footnote.
+
 #### 1. The R Scripts
 There are two R scripts
 
-- run_analysis.R
-- averages.R
+- `run_analysis.R` does the required analysis of the data and provides a tidy data set of the selected data
+- `averages.R` uses the results of the analysis and computes the required averages of specified data
 
-This `README` describes their functions.
+This `README` describes the functions of the two scripts.
    
 #### 2. The Analysis Script
 The steps in the R script `run_analysis.R` are as follows. The section numbers are also used in the comments in the script.
