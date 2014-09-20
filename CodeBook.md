@@ -2,7 +2,8 @@
 ## Coursera John Hopkins Getting and Cleaning Data Project
 ### Data Dictionary
 #### Introduction
-This document modifies and updates the codebook information provided with the original data and defines the variables used, summaries, other processing and any other relevant information.
+
+The source data is Human Activity Recognition Using Smartphones Dataset Version 1.0. This document modifies and updates the codebook information provided with the original data and defines the variables used, summaries, other processing and any other relevant information about the data.
 
 A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data from it is included in this document.
 
@@ -21,6 +22,19 @@ Note:
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row (observation) in the data file.
 
+#### The data sets used
+The following files in the original data were used:
+- 'features.txt': List of all features.
+- 'activity_labels.txt': Links the class labels with their activity name.
+- 'train/X_train.txt': Training set.
+- 'train/y_train.txt': Training labels.
+- 'test/X_test.txt': Test set.
+- 'test/y_test.txt': Test labels.
+- 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+- 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
+
+#### Processing of the data 
 
 
 
