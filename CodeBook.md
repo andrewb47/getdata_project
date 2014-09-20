@@ -40,9 +40,9 @@ The allocation of subjects to the test or training data sets was arbitrary. Ther
 
 The list of features in `features.txt` was used to provide column names for the 561 variables. The column names were then used to select the mean and standard deviation variables required by the assignment.
 
-The data from `subject_test.txt` and `subject_train.txt` were combined, as were the data from `y_test.txt` and `y_train.txt`. These were then used along with the data from `activity_labels.txt` to provide descriptive data for each observation in the combined 'X' data set.
+The data from `subject_test.txt` and `subject_train.txt` were combined, as were the data from `y_test.txt` and `y_train.txt`. These were then used along with the data from `activity_labels.txt` to provide descriptive data for each observation in the subsetted 'X' data set.
 
-The combined 'X' data set was then sorted by by subject and activity.
+The subsetted 'X' data set was then sorted by by subject and activity.
 
 
 
