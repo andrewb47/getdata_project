@@ -6,7 +6,9 @@ This document modifies and updates the codebook information provided with the or
 
 A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data from it is included in this document.
 
-
+#### The original data
+The experiments have been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The captured dataset was randomly partitioned into two sets, where 70% of the volunteers was selected
+for generating the training data and 30% the test data.
 
 
 
