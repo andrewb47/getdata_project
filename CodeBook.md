@@ -20,7 +20,7 @@ A description of the working of the R scripts is provided in the [README] [readm
 
 
 [readme]: https://github.com/andrewb47/getdata_project/blob/master/README.md
-[iwaal] https://github.com/andrewb47/getdata_project/blob/master/IWAAL_README.pdf
+[iwaal]: https://github.com/andrewb47/getdata_project/blob/master/IWAAL_README.pdf
 
 = = footnote = = = = = = = = = = = = = = = =   
 Dataset publication acknowledgement:   
