@@ -3,8 +3,18 @@
 
 This repo comprises the deliverables for an assignment that is part of the Coursera course 'Getting and Cleaning Data', one of a series of courses on
 Data Science provided on Coursera.org by the John Hopkins Bloomberg School of Public Health.
+
+#### 1. The R Scripts
+There are two R scripts
+
+- run_analysis.R
+- averages.R
+
+This `README` describes their functions.
    
-#### 1. Reading Files
+#### 2. The Analysis Script
+The steps in the R script `run_analysis.R` are as follows. The section numbers are also used in the comments in the script.
+
 Read the data files with   
 ```{r}
 read.table("file_path_", header = FALSE)
