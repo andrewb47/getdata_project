@@ -1,5 +1,8 @@
 ## Coursera John Hopkins Getting and Cleaning Data Project
 ### Project Assignment Notes
+
+This repo comprises the deliverables for an assignment that is part of the Coursera course 'Getting and Cleaning Data', one of a series of courses on
+Data Science provided on Coursera.org by the John Hopkins Bloomberg School of Public Health.
    
 #### 1. Reading Files
 Read the data files with   
