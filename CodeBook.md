@@ -4,7 +4,7 @@
 #### Introduction
 This document that modifies and updates the codebook information along with the original data and defines the variables and summaries and any other relevant information.
 
-A description of the working of the R scripts is provided in the [README] [readme]
+A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data is included in this document.
 
 
 
@@ -20,6 +20,7 @@ A description of the working of the R scripts is provided in the [README] [readm
 
 
 [readme]: https://github.com/andrewb47/getdata_project/blob/master/README.md
+[iwaal] https://github.com/andrewb47/getdata_project/blob/master/IWAAL_README.pdf
 
 = = footnote = = = = = = = = = = = = = = = =   
 Dataset publication acknowledgement:   
