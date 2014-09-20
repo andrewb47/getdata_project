@@ -44,9 +44,12 @@ The raw data includes two data sets named `test` and `train`. These are each acc
 ##### 3. Form the column names on `all_data_02` from the `features` data
 The names of the variables are available in the `features` table. This step extracts them and creates column headings on the data table.
 ##### 4. Reduce the columns of data in `all_data_02` 
-to the mean and standard deviation of each measurement
+The assignment requires only the mean and standard deviation of each measurement to be included in the tidy data set. This step selects them by selecting only the columns that have `"-mean()"` or `"-std()"` in the variable name in the column heading.
 ##### 5. Create descriptive data for the observations in `all_data_02`
-from subject and activity data
+The assignment requires descriptive activity names on the activities (each observation) in the data set. This step adds three columns to the left of the data set. 
+- the subject code that identifies the person tested
+- the activity code that identifies the activity tested 
+- the activity name from the `activity_labels` data
 ##### 6. Sort the data by subject then by activity_code
 ##### 7. Output the required table
 
