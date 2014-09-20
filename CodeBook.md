@@ -7,15 +7,19 @@ This document modifies and updates the codebook information provided with the or
 A description of the working of the R scripts is provided in the [README] [readme]. The [Original README] [iwaal] provided with the source data is provided for reference. Relevant data from it is included in this document.
 
 #### The original data
-The experiments have been carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The captured dataset was randomly partitioned into two sets, where 70% of the volunteers was selected
+The experiments were carried out with a group of 30 volunteers. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity were captured at a constant rate of 50Hz. The captured dataset was randomly partitioned into two sets, where 70% of the volunteers was selected
 for generating the training data and 30% the test data.
 
+For each record the following is provided:
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope.
+- A 561-feature vector with time and frequency domain variables.
+- Its activity label.
+- An identifier of the subject who carried out the experiment.
 
-
-
-
-
-
+Note:
+- Features are normalized and bounded within [-1,1].
+- Each feature vector is a row (observation) in the data file.
 
 
 
