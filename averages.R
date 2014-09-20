@@ -10,8 +10,8 @@
 #################
 #
 #
-s <- 1   # !!! are these needed
-a <- 1   # !!! are these needed
+s <- 1   # the subject index
+a <- 1   # the activity index
 # create a matrix for the result with the same columns
 # as the final_data_sort_01 table
 averages <- matrix(data = NA, nrow = 180, ncol = 69,)
