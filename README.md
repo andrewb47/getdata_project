@@ -23,8 +23,10 @@ Read the data files with
 ```{r}
 read.table("file_path_", header = FALSE)
 ```
+using the file name to form the corresponding table name.
    
 Read the files:   
+```
         activity_labels.txt             to activity_labels
         features.txt                    to features
         ./test/subject_test.txt         to subject_test
@@ -33,17 +35,18 @@ Read the files:
         ./train/subject_train.txt       to x_train
         ./train/X_train.txt             to y_test
         ./train/y_train.txt             to y_train
+```
         
 Assuming that the files in the Inertial Signals directories are not required as they contain the raw data that has been filtered to create the x and y test and train tables. 
 
-# 2. Combine the test and training datasets to all_data_02
-# 3. Form the column names on all_data_02 from the features data
-# 4. Reduce the columns of data in all_data_02 to the
-#    mean and standard deviation of each measurement
-# 5. Create descriptive data for the observations in all_data_02
-#    from subject and activity data
-# 6. Sort the data by subject then by activity_code
-# 7. Output the required table
+##### 2. Combine the test and training datasets to `all_data_02`
+##### 3. Form the column names on `all_data_02` from the features data
+##### 4. Reduce the columns of data in `all_data_02` 
+to the mean and standard deviation of each measurement
+##### 5. Create descriptive data for the observations in `all_data_02`
+from subject and activity data
+##### 6. Sort the data by subject then by activity_code
+##### 7. Output the required table
 
 #### 3. The Averages Script
 
