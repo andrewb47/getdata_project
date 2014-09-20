@@ -33,10 +33,10 @@ Read the files:
         activity_labels.txt             to activity_labels
         features.txt                    to features
         ./test/subject_test.txt         to subject_test
-        ./test/X_test.txt               to subject_train
-        ./test/y_test.txt               to x_test
-        ./train/subject_train.txt       to x_train
-        ./train/X_train.txt             to y_test
+        ./test/X_test.txt               to x_test 
+        ./test/y_test.txt               to y_test
+        ./train/subject_train.txt       to subject_train
+        ./train/X_train.txt             to x_train
         ./train/y_train.txt             to y_train
 ```
         
