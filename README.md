@@ -41,17 +41,24 @@ It is assumed that the files in the Inertial Signals directories are not require
 
 ##### 2. Combine the test and training datasets to `all_data_02`
 The raw data includes two data sets named `test` and `train`. These are each according to the same structure and are to be combined into one. This step merges the two main tables of data observations into table `all_data_02`.
+
 ##### 3. Form the column names on `all_data_02` from the `features` data
 The names of the variables are available in the `features` table. This step extracts them and creates column headings on the data table.
+
 ##### 4. Reduce the columns of data in `all_data_02` 
 The assignment requires only the mean and standard deviation of each measurement to be included in the tidy data set. This step selects them by selecting only the columns that have `"-mean()"` or `"-std()"` in the variable name in the column heading.
+
 ##### 5. Create descriptive data for the observations in `all_data_02`
 The assignment requires descriptive activity names on the activities (each observation) in the data set. This step adds three columns to the left of the data set. 
 - the subject code that identifies the person tested
 - the activity code that identifies the activity tested 
 - the activity name from the `activity_labels` data
+
 ##### 6. Sort the data by subject then by activity_code
+To tidy the data further this step sorts the data set by subject code and then by activity code so that the observations for each subject and his/her measured activity appear consecutively in the table.
+
 ##### 7. Output the required table
+The tidy data set is output in the file `samsung_data.txt` for submission as required by the assignment.
 
 #### 3. The Averages Script
 
