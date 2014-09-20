@@ -66,9 +66,9 @@ The script `averages.R` uses the tidy data set created by the `run_analysis.R` s
 
 The objective of the script is create a data set with the average of each variable for each activity and each subject. The layout of the new data set `averages` is similar to the data set created by the analysis script. There are three descriptive columns, subject, activity code and activity name followed by the 66 variables. Since there are 30 subjects who were each measured on six activities there are 180 rows with the averages of the individual observations.
 
-An empty matrix with 180 rows and 69 columns is created with the same column names as used in the analysis results.
+An empty matrix `averages` with 180 rows and 69 columns is created with the same column names as used in the analysis results.
 
-The `averages` matrix is filled row by row according to index `i`. Within a `for loop` by subject and a `for loop` by activity a work table is created of the observations per subject and activity. Within a further `for loop` the average of each variable is calculated and written to the appropriate cell in the `averages` matrix. The codes for subject and activity and the activity label are written to the row.
+The `averages` matrix is filled row by row according to index `i`. Within a `for loop` by subject and a `for loop` by activity a work table is created of the observations per subject and activity. Within a further `for loop` the average of each variable is calculated and written to the appropriate cell in the `averages` matrix. The codes for subject and activity and the activity label are also written to the row.
 
 The result is written to the file `averages.csv`.
    
