@@ -17,6 +17,8 @@ This `README` describes the functions of the two scripts.
 #### 2. The Analysis Script
 The steps in the R script `run_analysis.R` are as follows. The section numbers are also used in the comments in the script.
 
+##### 1. Read the data files from a local directory
+
 Read the data files with   
 ```{r}
 read.table("file_path_", header = FALSE)
@@ -34,28 +36,17 @@ Read the files:
         
 Assuming that the files in the Inertial Signals directories are not required as they contain the raw data that has been filtered to create the x and y test and train tables. 
 
-   
-#### Next steps   
-1. Map the relationships between tables
-2. Work out merger strategy - eliminating the unwanted measurement types   
-   
-#### 2. Merging the data frames
-First on x_test.
-subject_test (persons tested) becomes column 1
-y_test (activity identifier) becomes column 2
-in all_test
+# 2. Combine the test and training datasets to all_data_02
+# 3. Form the column names on all_data_02 from the features data
+# 4. Reduce the columns of data in all_data_02 to the
+#    mean and standard deviation of each measurement
+# 5. Create descriptive data for the observations in all_data_02
+#    from subject and activity data
+# 6. Sort the data by subject then by activity_code
+# 7. Output the required table
 
-Then on x_train
-subject_train (persons tested) becomes column 1
-y_train (activity identifier) becomes column 2
-in all_train
+#### 3. The Averages Script
 
-Then all_test and all_train are combined vertically to form all_data.
-   
-Column labels are assembled from two literals and the features vector
-and applied to all_data.
-
-#### the sort task is next
    
    
 = = = = = = = = = = = = = = = = = =   
