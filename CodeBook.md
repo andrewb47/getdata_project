@@ -33,14 +33,18 @@ The following files in the original data were used:
 - 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 - 'test/subject_test.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
+The [features_info] [feat_info] file from the original data which describes the features variables is provided.
 
 #### Processing of the data 
+The allocation of subjects to the test or training data sets was arbitrary. There is therefore no objection to combining the datasets. The data in `X_test.txt`, comprising 2,947 observations of 561 variables, was combined with the data in `X_train.txt`, comprising 7,352 observations of the same 561 variables.
 
+The list of features in `features.txt` was used to provide column names for the 561 variables. The column names were then used to select the mean and standard deviation variables required by the assignment.
 
 
 
 [readme]: https://github.com/andrewb47/getdata_project/blob/master/README.md
 [iwaal]: https://github.com/andrewb47/getdata_project/blob/master/IWAAL_README.pdf
+[feat_info]: https://github.com/andrewb47/getdata_project/blob/master/features_info.md
 
 = = footnote = = = = = = = = = = = = = = = =   
 Dataset publication acknowledgement:   
