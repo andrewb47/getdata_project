@@ -37,10 +37,12 @@ Read the files:
         ./train/y_train.txt             to y_train
 ```
         
-Assuming that the files in the Inertial Signals directories are not required as they contain the raw data that has been filtered to create the x and y test and train tables. 
+It is assumed that the files in the Inertial Signals directories are not required as they contain the raw data that has been filtered to create the x and y test and train tables. 
 
 ##### 2. Combine the test and training datasets to `all_data_02`
-##### 3. Form the column names on `all_data_02` from the features data
+The raw data includes two data sets named `test` and `train`. These are each according to the same structure and are to be combined into one. This step merges the two main tables of data observations into table `all_data_02`.
+##### 3. Form the column names on `all_data_02` from the `features` data
+The names of the variables are available in the `features` table. This step extracts them and creates column headings on the data table.
 ##### 4. Reduce the columns of data in `all_data_02` 
 to the mean and standard deviation of each measurement
 ##### 5. Create descriptive data for the observations in `all_data_02`
