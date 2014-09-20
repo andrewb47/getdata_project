@@ -6,6 +6,9 @@ Data Science provided on Coursera.org by the John Hopkins Bloomberg School of Pu
 
 The data for the project is in a set of files published by the International Workshop of Ambient Assisted Living. See the reference in the footnote.
 
+A [Code Book] [codebook] is available specifying the original data and the processing done to create a tidy data set.
+[codebook]: https://github.com/andrewb47/getdata_project/blob/master/CodeBook.md (Code Book)
+
 #### 1. The R Scripts
 There are two R scripts
 
